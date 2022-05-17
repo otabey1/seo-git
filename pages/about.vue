@@ -3,13 +3,12 @@
     <div class="text-center">
     <nuxt-logo />
     <h1>{{ title }}</h1>
-    <Button @click="AboutPage">About</Button>
     </div>
   </div>
 </template>
 <script>
   export default {
-    name: "IndexPage",
+    name: "AboutPage",
     data() {
       return {
         title: 'my website title'
